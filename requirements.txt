@@ -122,7 +122,9 @@ pycparser==2.20
 pydantic==1.6.2
     # via -r requirements.in
 pymysql[rsa]==1.0.2
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   pymysql
 pyrsistent==0.17.3
     # via jsonschema
 python-dateutil==2.8.1
@@ -142,7 +144,7 @@ pytz==2020.4
     #   flask-restx
 redis==4.5.5
     # via -r requirements.in
-requests==2.28.1
+requests==2.32.4
     # via -r requirements.in
 s3transfer==0.10.0
     # via boto3
